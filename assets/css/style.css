@@ -1,16 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.container-wrapper {
 
-}
 
-.container-wrapper--red {
-background-color: #f05f40;
-color:white;
-}
-
-/* Containers */
+/* Alert */
 
 .alert-container .col-12 {
     padding-left: 0;
@@ -23,21 +16,30 @@ color:white;
     padding: 5px 15px;
     background-color: #eec802;
     border-color: #eec802;
+    border: 1px solid transparent;
 }
+
+
+/* Containers */
+
+.container-wrapper {}
+
+.container-wrapper--red {
+background-color: #f05f40;
+color:white;
+}
+.alert-container {}
 
 .callout-container {
     height: 100vh;
-
     background: url('../images/whiskey-back.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -50,11 +52,18 @@ color:white;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
 .quotes-container {}
 
 .features-container {}
 
-/* Page headers */
+
+/* Page Headers */
 
 .page-header {
     margin-bottom: 0;
@@ -66,6 +75,12 @@ color:white;
 .page-header h2 {
     margin-top:0;
 
+}
+
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
 }
 
 
@@ -98,6 +113,8 @@ color:white;
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+
+
 /* Block dividers */
 
 .block-divider {
@@ -118,6 +135,7 @@ color:white;
 .block-divider--short {
     width: 35px;
 }
+
 
 /* Jumbotron */
 
@@ -143,12 +161,6 @@ color:white;
     color: #d0d0d0;
 }
 
-/* Content containers */
-
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
 
 /* Buttons */
 
@@ -173,7 +185,27 @@ color:white;
     color: white;
 }
 
+
+/* Features */
+
 .feature {
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
