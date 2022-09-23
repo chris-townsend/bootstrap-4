@@ -46,6 +46,21 @@ body {
 
 .features-container {}
 
+/* Page headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+
+}
+
+.page-header h2 {
+    margin-top:0;
+
+}
+
+
 /* Navbar */
 
 .navalert-container {
@@ -114,6 +129,13 @@ body {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Buttons */
